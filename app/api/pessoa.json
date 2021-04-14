@@ -1,0 +1,53 @@
+{
+    "lista":[
+        {
+            "id": 1,
+            "name":"Anderson",
+            "local":"Belo Horizonte",
+            "fluency": "In Progress",
+            "condigoInfo": 101
+        },
+        {
+            "id": 2,
+            "name":"Alessandro",
+            "local":"Brasilia",
+            "fluency": "In Progress",
+            "condigoInfo": 101
+        },
+        {
+            "id": 3,
+            "name":"Marcos",
+            "local":"Brasilia",
+            "fluency": "Advanced",
+            "condigoInfo": 301
+        },
+        {
+            "id": 4,
+            "name":"Anderson",
+            "local":"Belo Horizonte",
+            "fluency": "Advanced",
+            "condigoInfo": 201
+        },
+        {
+            "id": 5,
+            "name":"Alessandro",
+            "local":"Brasilia",
+            "fluency": "In Progress",
+            "condigoInfo": 201
+        },
+        {
+            "id": 6,
+            "name":"Collins",
+            "local":"Brasilia",
+            "fluency": "Advanced",
+            "condigoInfo": 301
+        },
+        {
+            "id": 7,
+            "name":"Benicio",
+            "local":"Brasilia",
+            "fluency": "Advanced",
+            "condigoInfo": 301
+        }
+    ]
+}

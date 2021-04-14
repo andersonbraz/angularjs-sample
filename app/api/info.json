@@ -1,0 +1,23 @@
+{
+    "lista":[
+        {
+            "id": 3,
+            "professional":"Backend",
+            "language":"Java",
+            "condigoInfo": 101
+        },
+        {
+            "id": 1,
+            "professional":"Frontend",
+            "language":"JavaScript",
+            "condigoInfo": 201
+        },
+        {
+            "id": 2,
+            "professional":"FullStack",
+            "language":"Java e JavaScript",
+            "condigoInfo": 301
+
+        }
+    ]
+}

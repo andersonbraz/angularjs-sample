@@ -1,0 +1,34 @@
+{
+    "lista":[
+        {
+            "id": 0,
+            "title":"Home",
+            "icon": "fas fa-house-user",
+            "url":"#"
+        },
+        {
+            "id": 1,
+            "title":"AngularJS",
+            "icon": "fab fa-free-code-camp",
+            "url":"#"
+        },
+        {
+            "id": 2,
+            "title":"Sample",
+            "icon": "far fa-building",
+            "url":"#"
+        },
+        {
+            "id": 3,
+            "title":"Studies",
+            "icon": "fas fa-rocket",
+            "url":"#"
+        },
+        {
+            "id": 99,
+            "title":"Logout",
+            "icon": "fas fa-sign-out-alt",
+            "url":"#"
+        }
+    ]
+}

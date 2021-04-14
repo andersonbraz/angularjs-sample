@@ -1,0 +1,50 @@
+<main ng-controller="TableController as vm" ng-init="vm.init()">
+    <div class="container-fluid">
+        <h1 class="mt-4">Table</h1>
+        <ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item active">Home</li>
+        </ol>
+        <div class="row">
+            <div class="col-6">
+                <table ng-table="vm.pessoa" class="table table-bordered table-hover" show-filter="false">
+                    <tr ng-repeat="pessoa in $data">
+                        <td title="'Nome'" sortable="'name'">
+                            {{ pessoa.name }}</td>
+                        <td title="'Local'" sortable="'local'">
+                            {{ pessoa.local }}</td>
+                        <td title="'Fluência'" sortable="'fluency'">
+                            {{ pessoa.fluency }}</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-6">
+                <table ng-table="vm.info" class="table table-bordered table-hover" show-filter="false">
+                    <tr ng-repeat="info in $data">
+                        <td title="'Professional'" sortable="'professional'">
+                            {{ info.professional }}</td>
+                        <td title="'Language'" sortable="'language'">
+                            {{ info.language }}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <table ng-table="vm.book" class="table table-bordered table-hover" show-filter="false">
+                    <tr ng-repeat="item in $data">
+                        <td title="'Nome'" sortable="'name'">
+                            {{ item.name }}</td>
+                        <td title="'Local'" sortable="'local'">
+                            {{ item.local }}</td>
+                        <td title="'Professional'" sortable="'professional'">
+                            {{ item.professional }}</td>
+                        <td title="'Languagae'" sortable="'language'">
+                            {{ item.language }}</td>
+                        <td title="'Fluência'" sortable="'fluency'">
+                            {{ item.fluency }}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</main>

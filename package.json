@@ -1,0 +1,28 @@
+{
+  "name": "angularjs-sample",
+  "version": "1.0.0",
+  "description": "Sample Project AngularJs",
+  "private": true,
+  "author": "Anderson Braz",
+  "license": "ISC",
+  "scripts": {
+    "start": "live-server app --host=localhost --port=3030",
+    "postinstall": "npm run copy-libs",
+    "copy-libs": "cpx \"node_modules/{angular,angular-*,ng-table/bundles,bootstrap/dist,jquery/dist,@fortawesome/fontawesome-free}/**/*\" app/lib -C"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "angular": "^1.8.x",
+    "angular-animate": "^1.8.x",
+    "angular-resource": "^1.8.x",
+    "angular-route": "^1.8.x",
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0",
+    "ng-table": "^3.0.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "cpx": "^1.5.0",
+    "live-server": "^1.2.1"
+  }
+}

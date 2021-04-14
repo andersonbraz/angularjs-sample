@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" ng-app="sampleApp">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Sample</title>
+  <!-- Style App -->
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="lib/@fortawesome/fontawesome-free/css/all.min.css" />
+  <link rel="stylesheet" href="lib/ng-table/bundles/ng-table.min.css" />
+  <link rel="stylesheet" href="app.css" />
+  <!-- Script App -->
+  <script src="lib/jquery/dist/jquery.min.js"></script>
+  <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/@fortawesome/fontawesome-free/js/all.min.js"></script>
+  <script src="lib/angular/angular.min.js"></script>
+  <script src="lib/angular-animate/angular-animate.min.js"></script>
+  <script src="lib/angular-resource/angular-resource.min.js"></script>
+  <script src="lib/angular-route/angular-route.min.js"></script>
+  <script src="lib/ng-table/bundles/ng-table.min.js"></script>
+  <script src="app.module.js"></script>
+  <script src="app.config.js"></script>
+  <script src="app.service.js"></script>
+  <script src="pages/home/home.controller.js"></script>
+  <script src="pages/table/table.controller.js"></script>
+  <script src="template/left-navbar/left-navbar.controller.js"></script>
+  <script src="app.script.js"></script>
+</head>
+<body class="sb-nav-fixed">
+  <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark" ng-include="'template/top-navbar/top-navbar.html'">
+  </nav>
+  <div id="layoutSidenav">
+    <div id="layoutSidenav_nav" ng-include="'template/left-navbar/left-navbar.html'"></div>
+    <div id="layoutSidenav_content">
+      <ng-view></ng-view>
+    </div>
+  </div>
+</body>
+</html>
